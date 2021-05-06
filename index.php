@@ -9,4 +9,5 @@
 <body>
     <header></header>
     <a href="view/addauthor.php">add authors</a>
+    <a href="view/addbook.php">add book</a>
 </html>

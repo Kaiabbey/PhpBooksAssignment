@@ -6,7 +6,7 @@ $conn = new connection;
 $pdo = $conn->connectdb();
 $auth = new author;
 try{
-    $auth->getAuthorInfo('steve','smith');
+    $auth->getAuthorInfo($AuthorFirstName,$AuthorLastName);
     $auth->addAuthor($pdo);
     header("location:../view/addauthor.php?AuthorAdded");
 }catch(exception $e){
